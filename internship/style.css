@@ -5,6 +5,9 @@ body{
     position: fixed;
     width: 100%;
 }
+#a1{
+    background-color: aqua;
+}
 .absolute{
     position: absolute;
     background-color:red;
@@ -18,10 +21,13 @@ body{
 p{
 font-size: xx-large;
 }
-
 #head{
     background-color: black;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
 }
+
 #g1{
     height: px;
     width: 200px;
@@ -31,6 +37,7 @@ font-size: xx-large;
     height: 450px;
     margin-left: 500px;
 }
+
 .c1 > p{
 color: blue;
 }
