@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+}
+.absolute{
+    position: absolute;
+    background-color:red;
+    color: white;
+    top: 1px;
+    margin-left: 550px;
+    margin-top: 215px;
+    height: 50px;
+    font-size:xx-large;
+}
+p{
+font-size: xx-large;
+}
+
+#head{
+    background-color: black;
+}
+#g1{
+    height: px;
+    width: 200px;
+    padding: 10px;
+}
+.image{
+    height: 450px;
+    margin-left: 500px;
+}
+.c1 > p{
+color: blue;
+}
+.c1 .c2 p{
+    color:darkgreen;
+}
+.c1 ~ p {
+color: violet   ;
+}
